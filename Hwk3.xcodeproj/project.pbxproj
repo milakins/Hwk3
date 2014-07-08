@@ -19,6 +19,8 @@
 		35367986196A2B0E00D47393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3536796E196A2B0E00D47393 /* UIKit.framework */; };
 		3536798E196A2B0E00D47393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3536798C196A2B0E00D47393 /* InfoPlist.strings */; };
 		35367990196A2B0E00D47393 /* Hwk3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3536798F196A2B0E00D47393 /* Hwk3Tests.m */; };
+		353679A2196A5CC100D47393 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353679A0196A5CC100D47393 /* MenuViewController.m */; };
+		353679A3196A5CC100D47393 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353679A1196A5CC100D47393 /* MenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		3536798B196A2B0E00D47393 /* Hwk3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hwk3Tests-Info.plist"; sourceTree = "<group>"; };
 		3536798D196A2B0E00D47393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3536798F196A2B0E00D47393 /* Hwk3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hwk3Tests.m; sourceTree = "<group>"; };
+		3536799F196A5CC100D47393 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		353679A0196A5CC100D47393 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		353679A1196A5CC100D47393 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		35367970196A2B0E00D47393 /* Hwk3 */ = {
 			isa = PBXGroup;
 			children = (
+				3536799E196A5CA700D47393 /* ViewControllers */,
 				35367979196A2B0E00D47393 /* AppDelegate.h */,
 				3536797A196A2B0E00D47393 /* AppDelegate.m */,
 				3536797C196A2B0E00D47393 /* Images.xcassets */,
@@ -142,6 +148,16 @@
 				3536798C196A2B0E00D47393 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3536799E196A5CA700D47393 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3536799F196A5CC100D47393 /* MenuViewController.h */,
+				353679A0196A5CC100D47393 /* MenuViewController.m */,
+				353679A1196A5CC100D47393 /* MenuViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,7 @@
 			files = (
 				35367975196A2B0E00D47393 /* InfoPlist.strings in Resources */,
 				3536797D196A2B0E00D47393 /* Images.xcassets in Resources */,
+				353679A3196A5CC100D47393 /* MenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +258,7 @@
 			files = (
 				3536797B196A2B0E00D47393 /* AppDelegate.m in Sources */,
 				35367977196A2B0E00D47393 /* main.m in Sources */,
+				353679A2196A5CC100D47393 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
